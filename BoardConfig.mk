@@ -31,8 +31,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/c0c4000.sdhci
 TARGET_KERNEL_CONFIG := lavender_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CLANG_VERSION := aosp
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/aosp-clang
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
