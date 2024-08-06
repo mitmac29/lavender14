@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libstdc++_vendor
+    libstdc++.vendor
 
 # Consumerir
 BOARD_HAVE_IR := true
