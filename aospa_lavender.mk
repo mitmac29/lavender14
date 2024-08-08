@@ -10,7 +10,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common aospa stuff
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
-WITH_GMS := true
+WITH_GMS := false
+TARGET_DISABLES_GMS := true
 
 # Inherit from lavender device
 $(call inherit-product, device/xiaomi/lavender/device.mk)
