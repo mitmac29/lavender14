@@ -8,13 +8,18 @@ LOCAL_OVERRIDES_PACKAGES := \
 	AmbientSensePrebuilt \
 	AppDirectedSMSService \
 	arcore \
+	arcore-1.42 \
+	Browser2 \
 	CarrierSetup \
 	Chrome \
+	Chrome64 \
 	Chrome-Stub \
 	ConnMO \
 	ConnMetrics \
 	DCMO \
 	DevicePolicyPrebuilt \
+	DevicePolicyPrebuilt-v10052480 \
+	DevicePersonalizationPrebuiltPixel2020 \
 	DMService \
 	Drive \
 	Via \
@@ -27,6 +32,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Gmail \
 	Gmail2 \
 	PrebuiltGmail \
+	Photos \
 	Recorder \
 	RecorderPrebuilt \
 	Gallery \
@@ -40,6 +46,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	SoundAmplifierPrebuilt \
 	SprintDM \
 	SprintHM \
+	SpeechServicesByGoogle \
 	Tycho \
 	FM2 \
 	WellbeingPrebuilt \
@@ -64,6 +71,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Gallery2 \
 	Music \
 	PersonalSafety \
+	linktowindows \
         UdfpsAnimations
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
