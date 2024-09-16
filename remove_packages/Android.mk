@@ -8,6 +8,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	AmbientSensePrebuilt \
 	AppDirectedSMSService \
 	arcore \
+	Browser2 \
 	CarrierSetup \
 	Chrome \
 	Chrome-Stub \
@@ -64,7 +65,8 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Gallery2 \
 	Music \
 	PersonalSafety \
-        UdfpsAnimations
+	linktowindows \
+    UdfpsAnimations
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
