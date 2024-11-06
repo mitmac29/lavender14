@@ -1036,7 +1036,7 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.ssc.so
 
-# Thermal
+# Thermal - from lavender V12.5.3.0.QFGMIXM
 vendor/bin/thermal-engine
 vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-map.conf
