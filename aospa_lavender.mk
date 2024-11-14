@@ -11,6 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common aospa stuff
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 WITH_GMS := true
+TARGET_KERNEL_VERSION := 4.19
 
 # Bootanimation resolution
 TARGET_BOOT_ANIMATION_RES := 1080
